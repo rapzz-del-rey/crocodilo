@@ -1,2 +1,2 @@
-// --- pages/credits.js --- import Link from 'next/link';
+import Link from 'next/link';
 export default function Credits() { return ( <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-pink-400 to-purple-500 text-white"> <h1 className="text-4xl font-bold mb-4">Credits</h1> <p className="text-xl mb-8">RapzzGegeGa?</p> <Link href="/" className="bg-white text-black px-4 py-2 rounded-2xl hover:bg-gray-300">Back to Home</Link> </main> ); }
