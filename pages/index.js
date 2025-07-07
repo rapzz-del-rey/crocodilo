@@ -1,2 +1,2 @@
-// --- pages/index.js --- import Link from 'next/link';
+import Link from 'next/link';
 export default function Home() { return ( <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-blue-400 to-purple-600 text-white"> <h1 className="text-5xl font-bold mb-8 animate-bounce">Flappy Manu</h1> <div className="flex gap-6"> <Link href="/login" className="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-2xl text-xl shadow-lg">Play</Link> <Link href="/credits" className="bg-yellow-400 hover:bg-yellow-500 px-6 py-3 rounded-2xl text-xl shadow-lg">Credits</Link> </div> </main> ); }
